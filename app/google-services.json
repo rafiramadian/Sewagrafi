@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "365871009158",
+    "project_id": "sewagrafi",
+    "storage_bucket": "sewagrafi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365871009158:android:accda72592fd521320b007",
+        "android_client_info": {
+          "package_name": "com.dicoding.sewagrafi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365871009158-k5ov712kp08fiqq0cf9p1fh8ksadrl32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDToGjXtcIItjLroR3RNNYDiJLWmah5jQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365871009158-k5ov712kp08fiqq0cf9p1fh8ksadrl32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

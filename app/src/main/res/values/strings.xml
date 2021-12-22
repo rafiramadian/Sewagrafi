@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Sewagrafi</string>
+    <string name="nama_kamera">Nama Kamera</string>
+    <string name="jenis_kamera">Jenis Kamera</string>
+    <string name="harga_sewa">Harga Sewa</string>
+    <string name="gambar_kamera">Gambar Kamera</string>
+    <string name="spesifikasi_detail">Spesifikasi</string>
+    <string name="titik_dua">:</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favorite">Favorite</string>
+    <string name="pemesanan">Pemesanan</string>
+    <string name="profile">Profile</string>
+
+    <string-array name="nama">
+        <item>Canon EOS 5D Mark IV</item>
+        <item>Nikon D3300</item>
+        <item>Nikon D3400</item>
+        <item>Nikon D5500</item>
+        <item>Canon EOS 750D</item>
+        <item>Nikon D5200</item>
+        <item>Canon EOS 5D Mark III</item>
+        <item>Canon EOS 200D Kit</item>
+        <item>Nikon D5200</item>
+        <item>Canon EOS 800D</item>
+        <item>Nikon D5300</item>
+        <item>Canon EOS 80D</item>
+    </string-array>
+
+    <string-array name="jenis">
+        <item>DSLR</item>
+        <item>DSLR</item>
+        <item>DSLR</item>
+        <item>DSLR</item>
+        <item>DSLR</item>
+        <item>DSLR</item>
+        <item>DSLR</item>
+        <item>DSLR</item>
+        <item>DSLR</item>
+        <item>DSLR</item>
+        <item>DSLR</item>
+        <item>DSLR</item>
+    </string-array>
+
+    <string-array name="harga_sewa">
+        <item>200.000/hari</item>
+        <item>200.000/hari</item>
+        <item>200.000/hari</item>
+        <item>200.000/hari</item>
+        <item>200.000/hari</item>
+        <item>200.000/hari</item>
+        <item>200.000/hari</item>
+        <item>200.000/hari</item>
+        <item>200.000/hari</item>
+        <item>200.000/hari</item>
+        <item>200.000/hari</item>
+        <item>200.000/hari</item>
+    </string-array>
+
+    <string-array name="spesifikasi">
+        <item>Canon EOS 5D Mark IV merupakan generasi penerus seri 5D yang memiliki sensor CMOS Full Frame (36 x 24 mm) dan ketajaman 30 MP. Didukung processor gambar DIGIC 6+ dan teknologi Digital Lens Optimizer (DLO) serta Dual Pixel RAW (DPRAW) untuk mengatur posisi efek bokeh dan mengurangi efek ghosting dan flare.</item>
+        <item>Nikon d3300 adalah penerus dan update dari versi sebelumnya Nikon d3200. Brand kamera DSLR terbaik ini memiliki user interface yang cocok untuk pemula. DSLR camera favorit ini dilengkapi fitur-fitur muktahir, seperti 24 MP CMOS Expeed 4 Sensor, ISO range hingga 25600 (Boost) dan Continuous Shoot hingga 5 fps.</item>
+        <item>Nikon D3400 merupakan salah satu merk kamera DSLR Nikon terbaik dengan body yang ramping dan praktis. Kamera ini menggunakan sensor 24 MP CMOS image processor XPEED 4 dengan ISO sensitivity 100"-"25.600. Kamera ini memiliki fitur seperti, 5 fps continuous shooting serta Full HD 60 fps video recording. Dan fitur Bluetooth Low Energy untuk konektivitas ke smartphone.</item>
+        <item>Tipe kamera DSLR terbaik keluaran Nikon selanjutnya adalah Nikon D5500 yang mengusung sensor 24.2 megapiksel DX–format CMOS APS–C tanpa low pass filter optik atau filter anti–aliasing. Dengan ISO range 100–25600 dan foto burst dengan kecepatan 5 fps. Nikon D5500 menggunakan LCD 3.2 inci touchscreen dan built-in Wi-Fi sebegai penyempurna dari kamera ini.</item>
+        <item>Canon EOS 750D adalah kamera DLSR popular yang dibekali sensor APS"–"C (22.3 x 14.9 mm) dan ketajaman 24 MP. Dengan sensor APS–C (22.3 x 14.9 mm), Canon EOS 750D memiliki rentang sensitifitas ISO 100–12800 dan dapat ditingkatkan lagi hingga 25600, shutter speed 1/4000 detik sampai minimal 30 detik. Kamera ini juga memiliki fitur Wi-Fi dan NFC untuk memudahkan transfer hasil foto.</item>
+        <item>Kamera DSLR terbaik keluaran Nikon lainnya ini dibekali sensor APS-C (23.5 x 15.6 mm) bertipe CMOS dengan ukuran pixel 24 MP dan processor Expeed 3. Pilihan kamera DSLR favorit ini juga dipersenjatai dengan kemampuan Shutter speed 1/4000 sampai 30 detik dan juga tersedia fitur Wi-Fi untuk memudahkan mentransfer hasil foto dari kamera DSLR ini.</item>
+        <item>EOS 5D Mark III, penerus dari seri sebelumnya yang sangat-sangat popular 5D Mark II. Dengan pembaharuan dibeberapa sektor, seperti 22.1 MP CMOS Full frame 36.0 x 24.0 mm Digic 5+ sensor, 61 titik fokus dan kemampuan ISO hingga 25600 (102400 optional). Membuat kamera DSLR favorit paling popular dari Canon ini dapat  mengambil gambar dengan cepat dan presisi.</item>
+        <item>Kamera DSLR murah terbaik selanjutnya adalah Canon EOS 200D Kit. Kamera ini memiliki bobot yang cukup ringan sehingga gampang dibawa kemana-mana. Dilengkapi dengan kamera beresolusi 24.2MP dengan sensor APS-C CMOS membuat gambar yang dihasilkan sangatlah detail Di sektor perekaman video, kamera ini bisa merekam hingga resolusi full HP 1080p dengan frame rate mencapai 60 fps. Tidak lupa fitur lainnya seperti NFC, Bluetooth, dan sudah support konektivitas WiFi. Sistem dual pixel CMOS AF mampu mendeteksi fase yang mencakup hingga 100% untuk melakukan pemfokusan mulus tanpa gangguan.Kamera DSLR murah terbaik selanjutnya adalah Canon EOS 200D Kit. Kamera ini memiliki bobot yang cukup ringan sehingga gampang dibawa kemana-mana. Dilengkapi dengan kamera beresolusi 24.2MP dengan sensor APS-C CMOS membuat gambar yang dihasilkan sangatlah detail Di sektor perekaman video, kamera ini bisa merekam hingga resolusi full HP 1080p dengan frame rate mencapai 60 fps. Tidak lupa fitur lainnya seperti NFC, Bluetooth, dan sudah support konektivitas WiFi. Sistem dual pixel CMOS AF mampu mendeteksi fase yang mencakup hingga 100% untuk melakukan pemfokusan mulus tanpa gangguan.</item>
+        <item>Fitu-fitur yang ada di kamera ini tergolong cukup lengkap untuk kelas harganya yang murah. Namun, kualitasnya tentu cukup lumayan. Dibekali Image Processor Expeed 3 dan sensor 24.1MP DX-Format CMOSnya tentunya sangat berguna untuk meningkatkan kualitas foto yang dihasilkan. Kamera ini memiliki shooting rate sebesar 5 fps. Fitur-fitur tambahan yang tidak kalah menarik seperti timelapse, microphone, auto focus with silent wave dan memori eksternal tentunya menambah daya tarik kamera ini. Bodi Nikon D5200 relatif kecil di kelas harganya dan memiliki pegangan yang dilapisi oleh karet bertekstur sehingga tidak licin saat digunakan.</item>
+        <item>Kamera DSLR murah selanjutnya ini tentunya sangat dikenali oleh pecinta fotografi. Ciri khasnya terletak pada penggunaan processor yang canggih dan selalu diperbarui setiap 1 atau 2 tahun. Untuk jeroannya, kamera ini menggunakan lensa sebesar 24.2MP dengan sensor APS-C CMOS dan extended ISO 51200. Kamera ini juga mampu merekam hingga resolusi full HD 1080p hingga 60 fps. Tidak lupa fitur-fitur umum seperti WiFi,NFC, dan Bluetooth juga dihadirkan di Canon EOS 800D tersebut.</item>
+        <item>Kualitas seperti sensor, auto focus, WiFi, GPS, dan lain–lainnya sudah tergolong baik. Meskipun begitu, ternyata ada bagian yang kurang baik yaitu pada fitur lensa kitnya yang belum mencapai 18–55 mm dan juga harga VRnya yang cukup mahal. Tidak sampai disitu, kekurangan lainnya juga terdapat di roda penggantinya yang berfungsi kurang baik. Fitur yang cukup berguna seperti touchscreen dan wireless flash juga absen di kamera ini. Meskipun cukup banyak kekurangan, kamera ini tetaplah cocok untuk para pemula yang ingin menggunakannya.</item>
+        <item>Canon EOS 80D hadir menyempurkan kamera DSLR keluaran Canon sebelumnya yaitu Canon EOS 70D. Di dalam kamera ini terdapat fitur sistem AF 45 titik fokus, ISO pada rentang 25600 serta processor berkecepatan tinggi dengan sensor CMOS 24.2 MP. Tipe kamera DSLR popular keluaran Canon dilengkapi teknologi EOS Scene Analysis yang memberikan nilai lebih bagi pecinta fotografi.</item>
+    </string-array>
+
+    <string-array name="gambar">
+        <item>@drawable/gambar1</item>
+        <item>@drawable/gambar2</item>
+        <item>@drawable/gambar3</item>
+        <item>@drawable/gambar4</item>
+        <item>@drawable/gambar5</item>
+        <item>@drawable/gambar6</item>
+        <item>@drawable/gambar7</item>
+        <item>@drawable/gambar8</item>
+        <item>@drawable/gambar9</item>
+        <item>@drawable/gambar10</item>
+        <item>@drawable/gambar11</item>
+        <item>@drawable/gambar12</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_home">Home</string>
+    <string name="title_pemesanan">Pemesanan</string>
+    <string name="title_beranda">Beranda</string>
+    <string name="title_profile">Profile</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="register">Register</string>
+    <string name="book">Book</string>
+
+</resources>

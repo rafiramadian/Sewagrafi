@@ -99,5 +99,8 @@
     <string name="forgot_password">Forgot password?</string>
     <string name="register">Register</string>
     <string name="book">Book</string>
+    <string name="riwayat_peminjaman">Riwayat Peminjaman</string>
+    <string name="tanggal_pinjam">Tanggal Pinjam</string>
+    <string name="tanggal_kembali">Tanggal Kembali</string>
 
 </resources>

@@ -138,57 +138,113 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tanggal_pinjam"
+                        android:textColor="@color/black"
+                        android:textStyle="bold|italic"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginEnd="66dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold|italic"
+                        android:text="@string/tanggal_kembali"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+
+                    <ImageButton
+                        android:id="@+id/btn_tanggal_pinjam"
+                        style="@style/Base.Widget.AppCompat.ImageButton"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_date_range_24"
+                        android:contentDescription="@string/tanggal_pinjam" />
+                    <TextView
+                        android:id="@+id/tv_tanggal_pinjam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/tanggal_pinjam" />
+
+                    <ImageButton
+                        android:id="@+id/btn_tanggal_kembali"
+                        style="@style/Base.Widget.AppCompat.ImageButton"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_date_range_24"
+                        android:contentDescription="@string/tanggal_kembali" />
+                    <TextView
+                        android:id="@+id/tv_tanggal_kembali"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tanggal_kembali" />
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/book"
+                    android:layout_marginTop="16dp" />
+
+            </LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>
 
+    <ToggleButton
+        android:id="@+id/btn_message"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/ic_baseline_email_24"
+        android:backgroundTint="@color/teal_200"
+        android:textOn=""
+        android:textOff=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        app:layout_anchor="@id/scrollView2"
+        app:layout_constraintBottom_toTopOf="@id/btn_favorite"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/cvButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <ToggleButton
+        android:id="@+id/btn_favorite"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/favorite_toggle"
+        android:textOn=""
+        android:textOff=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        app:layout_anchor="@id/scrollView2"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="6dp"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btnBook"
-                android:layout_width="220dp"
-                android:layout_height="52dp"
-                android:layout_marginStart="28dp"
-                android:text="@string/book"
-                android:textSize="16sp"/>
-
-            <ImageButton
-                android:id="@+id/btnMessage"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
-                android:layout_marginTop="6dp"
-                android:layout_marginStart="16dp"
-                android:background="@drawable/roundedcorner"
-                android:backgroundTint="@color/bluegrey_500"
-                android:src="@drawable/ic_baseline_email_24" />
-
-            <ImageButton
-                android:id="@+id/btnFavorite"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
-                android:layout_marginTop="6dp"
-                android:layout_marginStart="16dp"
-                android:background="@drawable/roundedcorner"
-                android:backgroundTint="@color/bluegrey_500"
-                android:src="@drawable/favorite_button" />
-        </LinearLayout>
-
-    </com.google.android.material.card.MaterialCardView>
-
-
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

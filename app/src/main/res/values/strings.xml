@@ -102,5 +102,14 @@
     <string name="riwayat_peminjaman">Riwayat Peminjaman</string>
     <string name="tanggal_pinjam">Tanggal Pinjam</string>
     <string name="tanggal_kembali">Tanggal Kembali</string>
+    <string name="jam_pinjam">Jam Pinjam</string>
+    <string name="jam_kembali">Jam Kembali</string>
+    <string name="merk_kamera">Merk Kamera</string>
+    <string name="logout">Logout</string>
+    <string name="ingin_keluar">Ingin Keluar?</string>
+    <string name="produk">Produk</string>
+    <string name="produk2">produk</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="riwayat">Riwayat</string>
 
 </resources>

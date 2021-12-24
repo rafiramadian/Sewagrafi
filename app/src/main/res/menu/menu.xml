@@ -13,10 +13,10 @@
     <item
         android:id="@+id/navigation_pemesanan"
         android:icon="@drawable/ic_baseline_event_24"
-        android:title="@string/pemesanan" />
+        android:title="@string/riwayat" />
 
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_baseline_person_24"
-        android:title="@string/profile" />
+        android:title="@string/logout" />
 </menu>

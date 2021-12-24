@@ -1,5 +1,6 @@
 # Sewagrafi
-[![GitHub release][release-url]
+[release-url]
+
 **Aplikasi Sewagrafi** merupakan aplikasi yang memberikan layanan penyewaan kamera/booking kamera.
 
 ## How to use

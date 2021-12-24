@@ -12,6 +12,7 @@ import com.dicoding.sewagrafi.database.Favorite
 import com.dicoding.sewagrafi.databinding.ItemRowKameraBinding
 import com.dicoding.sewagrafi.helper.FavoriteDiffCallback
 import com.dicoding.sewagrafi.ui.beranda.DetailActivity
+import com.dicoding.sewagrafi.ui.favorite.DetailFavoriteActivity
 
 class FavoriteAdapter : RecyclerView.Adapter<FavoriteAdapter.FavoriteViewHolder>() {
     private val listFavorites = ArrayList<Favorite>()
@@ -51,8 +52,8 @@ class FavoriteAdapter : RecyclerView.Adapter<FavoriteAdapter.FavoriteViewHolder>
                     .transition(DrawableTransitionOptions.withCrossFade())
                     .into(imgKamera)
                 itemView.setOnClickListener{
-                    val intent = Intent(it.context, DetailActivity::class.java)
-                    intent.putExtra(DetailActivity.EXTRA_KAMERA, favorite)
+                    val intent = Intent(it.context, DetailFavoriteActivity::class.java)
+                    intent.putExtra(DetailFavoriteActivity.EXTRA_FAVORITE, favorite)
                     it.context.startActivity(intent)
                 }
             }

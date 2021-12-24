@@ -12,13 +12,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.dicoding.sewagrafi.R
 import com.dicoding.sewagrafi.adapter.FavoriteAdapter
-import com.dicoding.sewagrafi.adapter.KameraAdapter
-import com.dicoding.sewagrafi.database.Favorite
-import com.dicoding.sewagrafi.database.Kamera
 import com.dicoding.sewagrafi.databinding.FragmentFavoriteBinding
 import com.dicoding.sewagrafi.helper.ViewModelFactory
 import com.dicoding.sewagrafi.model.FavoriteViewModel
-import com.dicoding.sewagrafi.model.KameraViewModel
 import com.google.firebase.auth.FirebaseAuth
 
 class FavoriteFragment : Fragment(R.layout.fragment_favorite) {

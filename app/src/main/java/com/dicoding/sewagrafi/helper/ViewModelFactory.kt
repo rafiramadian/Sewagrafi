@@ -1,10 +1,11 @@
 package com.dicoding.sewagrafi.helper
 
 import android.app.Application
-import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.dicoding.sewagrafi.model.BookViewModel
 import com.dicoding.sewagrafi.model.FavoriteViewModel
+import com.dicoding.sewagrafi.model.HistoryViewModel
 import com.dicoding.sewagrafi.model.KameraViewModel
 
 class ViewModelFactory private constructor(private val application: Application) : ViewModelProvider.NewInstanceFactory() {
@@ -29,6 +30,12 @@ class ViewModelFactory private constructor(private val application: Application)
         }
         if (modelClass.isAssignableFrom(FavoriteViewModel::class.java)) {
             return FavoriteViewModel(application) as T
+        }
+        if (modelClass.isAssignableFrom(BookViewModel::class.java)) {
+            return BookViewModel(application) as T
+        }
+        if (modelClass.isAssignableFrom(HistoryViewModel::class.java)) {
+            return HistoryViewModel(application) as T
         }
         throw IllegalArgumentException("Unknown ViewModel class: ${modelClass.name}")
     }

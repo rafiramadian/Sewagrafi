@@ -6,12 +6,14 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 
 @Database(
-    entities = [Kamera::class,Favorite::class],
+    entities = [Kamera::class,Favorite::class,Book::class,History::class],
     version = 1
 )
 abstract class KameraDatabase : RoomDatabase() {
     abstract fun KameraDao(): KameraDao
     abstract fun FavoriteDao(): FavoriteDao
+    abstract fun BookDao(): BookDao
+    abstract fun HistoryDao(): HistoryDao
 
     companion object {
         @Volatile

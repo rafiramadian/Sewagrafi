@@ -1,7 +1,5 @@
 package com.dicoding.sewagrafi.ui.beranda
 
-import android.app.Application
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.fragment.app.Fragment

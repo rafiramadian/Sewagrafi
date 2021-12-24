@@ -21,8 +21,14 @@ class KameraRepository(context: Context) {
 
     fun getAllKamera() : LiveData<List<Kamera>> = mKameraDao.getAllKamera()
 
+    fun getKamera(merk: String?) : LiveData<List<Kamera>> = mKameraDao.getKamera(merk)
+
     fun insert(kamera: Kamera) {
         executorService.execute { mKameraDao.insert(kamera) }
+    }
+
+    fun update(kamera: Kamera) {
+        executorService.execute { mKameraDao.update(kamera) }
     }
 
 }

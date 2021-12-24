@@ -1,10 +1,7 @@
 package com.dicoding.sewagrafi.database
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 
 @Dao
 interface KameraDao {
@@ -13,4 +10,10 @@ interface KameraDao {
 
     @Query("SELECT * from kamera")
     fun getAllKamera() : LiveData<List<Kamera>>
+
+    @Query("SELECT * from kamera WHERE kamera.merk_kamera = :merk")
+    fun getKamera(merk: String?) : LiveData<List<Kamera>>
+
+    @Update
+    fun update(kamera: Kamera)
 }
